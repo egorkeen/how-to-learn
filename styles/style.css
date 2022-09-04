@@ -20,6 +20,7 @@
 .header__logo {
   width: 228px;
   height: 32px;
+  z-index: 0;
 }
 
 .logo_place_header {
@@ -37,6 +38,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -50,6 +52,7 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -85,7 +88,6 @@
   width: 100%;
   justify-content: center;
   margin-top: 100px;
-  border: 3px solid #f2f2f2;
 }
 
 .two-columns {
@@ -133,7 +135,6 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
-  border: 2px solid #f2f2f2;
 }
 
 .section-title {
@@ -256,6 +257,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 90px;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -266,6 +268,7 @@
   text-align: center;
   color: white;
   margin: 90px auto 20px;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -335,21 +338,20 @@
 .footer__column_content_copyright {
   width: 50%;
   height: 250px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo_place_footer {
   width: 228px;
   height: 32px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .footer__author {
-  position: absolute;
-  left: 0;
-  bottom: 18px;
+  height: fit-content;
+  margin: 18px 0;
   color: white;
   line-height: 25px;
   font-size: 18px;
