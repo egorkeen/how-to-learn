@@ -24,6 +24,8 @@
 }
 
 .logo_place_header {
+  min-height: fit-content;
+  min-width: fit-content;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -43,6 +45,7 @@
 
 .header__subtitle {
   width: 338px;
+  min-height: fit-content;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -56,6 +59,8 @@
 }
 
 .header__main-illustration {
+  min-height: fit-content;
+  min-width: fit-content;
   height: 608px;
   width: 765px;
   max-width: 765px;
@@ -67,6 +72,8 @@
 }
 
 .header__square-pic {
+  min-height: fit-content;
+  min-width: fit-content;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -222,7 +229,8 @@
 }
 
 .feynman__link {
-  width: fit-content;
+  min-height: fit-content;
+  min-width: fit-content;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -238,6 +246,8 @@
 }
 
 .feynman__pic {
+  min-height: fit-content;
+  min-width: fit-content;
   width: 867px;
   height: 637px;
   position: absolute;
@@ -279,6 +289,7 @@
   text-align: center;
   color: white;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -309,12 +320,14 @@
 }
 
 .kaufman__triangle {
- width: 877px;
- height: 877px;
- position: absolute;
- top: 0;
- right: -210px;
- z-index: 0;
+  min-height: fit-content;
+  min-width: fit-content;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
 }
 
 /* Подвал сайта */
