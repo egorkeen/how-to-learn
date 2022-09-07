@@ -17,18 +17,13 @@
   background-color: #f2f2f2;
 }
 
-.header__logo {
-  min-height: fit-content;
-  min-width: fit-content;
-  width: 228px;
-  height: 32px;
-  z-index: 0;
-}
-
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  width: 228px;
+  height: 32px;
+  z-index: 0;
 }
 
 .header__title {
@@ -126,7 +121,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:nth-of-type(3n) {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
@@ -303,7 +298,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
   z-index: 1;
 }
 
@@ -312,6 +306,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
   z-index: 1;
 }
 
@@ -388,7 +383,7 @@
   justify-content: space-between;
   color: white;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
