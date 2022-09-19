@@ -1,6 +1,7 @@
 .header__link {
   display: inline-block;
   min-width: max-content;
+  margin: 0 0;
   text-decoration: none;
   color: #2f80ed;
 }
