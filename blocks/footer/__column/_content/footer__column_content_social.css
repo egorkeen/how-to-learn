@@ -1,4 +1,6 @@
 .footer__column_content_social {
   min-width: fit-content;
   min-height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
