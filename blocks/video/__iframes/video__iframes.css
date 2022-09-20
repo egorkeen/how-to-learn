@@ -1,5 +1,4 @@
 .video__iframes {
-  position: sticky;
   display: flex;
   justify-content: center;
   gap: 20px;

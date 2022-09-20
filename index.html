@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать →</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Снова Двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header> <!--Конец шапки страницы-->
     <main> <!--Основное содержимое-->
       <section class="description"> <!--Секция description-->
@@ -61,8 +61,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section><!--Конец секции-->
       <section class="oakley"> <!--Секция oakley-->
@@ -123,16 +123,12 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <blockquote>
-            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-            <p class="khan__quote-author">Джордж Лукас</p>
-            <p class="khan__quote-authore-subline">Кинорежиссер, продюсер</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-authore-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="./blocks/khan/__book-pic/khan-book.jpg" alt="Книга Хана">
-            </div>
-            <!--<img class="khan__book-pic" src="../how-to-learn/images/khan-book.jpg" alt="Книга"> Пытался сделать картинку через тег img, но она растягивалась. overflow не помогало. Решил сделать через div (выше), но атрибут alt нельзя ж для дива добавлять. Оставил тут на всякий случай.-->
+            <img class="khan__book-pic" src="../how-to-learn/images/khan-book.jpg" alt="Книга">
             <a class="khan__buy-link" href="#">Купить книгу →</a>
           </div>
         </div>
@@ -182,23 +178,23 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
       </section> <!--Конец секции-->
       <section class="resources"> <!--Секция resources-->
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
           <a class="resources__link" href="#">
-            <img src="./blocks/resources/logo/resources-arzamas.svg" alt="Ресурс Arzamas">
+            <img class="resources__logo" src="./blocks/resources/logo/resources-arzamas.svg" alt="Ресурс Arzamas">
           </a>
           <a class="resources__link" href="#">
-            <img src="./blocks/resources/logo/resources-n1.svg" alt="Ресурс N+1">
+            <img class="resources__logo" src="./blocks/resources/logo/resources-n1.svg" alt="Ресурс N+1">
           </a>
           <a class="resources__link" href="#">
-            <img src="./blocks/resources/logo/resources-strelka.svg" alt="Ресурс Стрелка">
+            <img class="resources__logo" src="./blocks/resources/logo/resources-strelka.svg" alt="Ресурс Стрелка">
           </a>
           <a class="resources__link" href="#">
-            <img src="./blocks/resources/logo/resources-polka.svg" alt="Ресурс Полка">
+            <img class="resources__logo" src="./blocks/resources/logo/resources-polka.svg" alt="Ресурс Полка">
           </a>
       </div>
       </section><!--Конец секции-->
